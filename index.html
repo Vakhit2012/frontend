@@ -5,14 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend разработка</title>
-  
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <img src="ljgotip.png" alt="логотип фронт" width="150">
     <nav>
-      <ul>
-      <li> <a href="#start">Введение</a> </li>
+    <div class="logo">
+    <img src="ljgotip.png" alt="логотип фронт" width="150">
+  </div>
+      <ul class="menu">
+      <li><a href="table.html">Таблица div</a></li>
+      <li><a href="#start">Введение</a> </li>
       <li><a href="#tool">Инструменты</a></li>
       <li><a href="#Language">Языки</a></li>
       <li><a href="second_page.HTML">Перейти на 2-ю страницу</a></li>
@@ -22,13 +25,13 @@
   </header>
 <hr>
   <main>
-    <section id="start">
+    <section class="start1" id="start">
       <h2>Введение в Frontend Разработку </h2>
       <p>Frontend разработка отвечает за создание интерфейса пользовательской части веб-сайт или веб-приложения. Она включает
         в себя работу с HTML,CSS и JS</p>
      </section>
-     <br>
-    <section id="Language">
+     
+    <section class="ln" id="Language">
       <h2>Языки Frontend Разработки</h2>
       <ul>
         <li>HTML (HyperText Markup Language) - используется для структурирования содержимого веб-страницы:</li>
@@ -37,7 +40,7 @@
       </ul>
     </section>
     <hr>
-    <section id="tool">
+    <section class="tooli" id="tool">
       <h2>Инструменты Frontend Разработки</h2>
       <ol>
         <li>VS Code - Мощный редактор кода с поддержкой множества языков и плагинов</li>
@@ -45,7 +48,7 @@
         <li>Sass - репроцессор CSS с расширенными возможностями</li>
         <li>Webpack - Сборщик модулей для JS приложений</li>
       </ol>
-      <table width="900" border="1" cellpadding="10">
+      <table class="table" width="900" border="1" cellpadding="10">
         <thead>
           <tr>
             <th colspan="2">Навыки</th>
@@ -169,11 +172,11 @@
       </table>
     </section>
     <hr>
-    <section>
+    <section class="info">
       <h2>Статьи</h2>
       <aside>
-        <ol>
-        <li><h3>С ЧЕГО НАЧАТЬ ПУТЬ REACT-РАЗРАБОТЧИКУ</h3></li>
+        <article>
+        <h3>С ЧЕГО НАЧАТЬ ПУТЬ REACT-РАЗРАБОТЧИКУ</h3>
         <p>React — это библиотека JavaScript с открытым кодом для создания внешних пользовательских интерфейсов. Особенностью
           данной библиотеки является компонентный подход, что позволяет создавать крупные модули из более мелких и изолированных
           компонентов.</p>
@@ -181,11 +184,13 @@
           <p>В этой статье мы разберем, кто такой React-разработчик, какие hard- и soft-скиллы ему необходимы, плюсы и минусы
           профессии. Поделимся историей нашего разработчика, как он пришел в сферу, и расскажем, как подготовиться к
           собеседованию. </p>
-          <h3>КТО ТАКОЙ <span style="color: green;"> REACT-РАЗРАБОТЧИК  </span></h3>
+          <h4>КТО ТАКОЙ <span style="color: green;"> REACT-РАЗРАБОТЧИК  </span></h4>
           <p>React-разработчик — это специалист в области frontend-разработки, который занимается созданием приложений для
             десктопных и мобильных устройств.</p>
             <a href="https://academy.mediasoft.team/article/s-chego-nachat-put-react-razrabotchiku/">Читать далее</a>
-          <li><h3>Чем различается фронтенд- и бэкенд-разработка</h3></li>
+        </article>
+          <article>
+        <h3>Чем различается фронтенд- и бэкенд-разработка</h3>
           <p>Рассказываем, что такое фронтенд и бэкенд, чем они различаются и как взаимодействуют между собой. Разбираемся и
             выбираем подходящее направление.</p>
             <p>Фронтенд и бэкенд — это как сцена и закулисье веб-приложения. Фронтендеры разрабатывают интерфейсы, изучая и учитывая
@@ -202,7 +207,9 @@
                 Чтобы понять, что собой представляет фронтенд, откройте страницу любого сайта — вы увидите интерфейс. Щёлкните правой
                 кнопкой мыши по странице, выберите пункт «Исходный код страницы», и перед вами откроется… её исходный код :)</p>
                 <a href="https://skillbox.ru/media/code/frontend_i_backend_razrabotka/">читать далее</a>
-                <li><h3>ЛАЙФХАКИ ПРИ ИЗУЧЕНИИ REACT</h3></li>
+          </article>
+                <article>
+          <h3>ЛАЙФХАКИ ПРИ ИЗУЧЕНИИ REACT</h3></li>
                 <p>Классовые и функциональные компоненты, работа с хуками, инструменты для правильного оформления кода и лайфхаки для
                   его оптимизации — наши преподаватели поделились полезными советами, которые помогут вам, если вы только начинаете
                   изучать React.</p>
@@ -211,30 +218,35 @@
                     <p>Считается, что это устаревшие технологии, но при реальной работе на них можно периодически наткнуться. Потому что
                       есть кейсы, когда только классовые компоненты могут реализовать какую-то специальную логику.</p>
                       <a href="https://academy.mediasoft.team/article/laifkhaki-pri-izuchenii-react/">Читать далее</a>
-                  </aside>
+                </article>
+                    </aside>
       </ol>
     </section>
   </main>
   <hr>
   <footer>
-    <img src="ljgotip.png" alt="логотип фронт" width="150">
     <nav>
-      <ul>
+      <div class="logo">
+      <img src="ljgotip.png" alt="логотип фронт" width="150">
+    </div>
+        <ul class="menu">
         <li> <a href="#start">Введение</a> </li>
         <li><a href="#tool">Инструменты</a></li>
         <li><a href="#Language">Языки</a></li>
         <li><a href="second_page.HTML">Перейти на 2-ю страницу</a></li>
         <li><a href="third_page.html#comment">Оставить комментарий</a></li>
       </ul>
-  </nav>
+    </nav>
+    <div class="inform">
   <address>
-    Телефон для связи:
+    Телефон для связи: &#9990;
     <a href="tel:+7 967 732-72-72"> 89677327272</a>
   </address>
   <address>
-    Почта для  связи: 
+    Почта для  связи: &#9993;
     <a href="mailto:vaxit.tagirov@bk.ru">Vaxit.tagirov@bk.ru</a>
   </address>
+    </div>
   </footer>
 </body>
 </html>

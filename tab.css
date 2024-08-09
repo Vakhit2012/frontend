@@ -1,0 +1,68 @@
+.tb{
+
+width: 100vw;
+gap: 0;
+display: grid;
+grid-template-columns: 33% 33% 33%;
+grid-template-rows: 100px 100px 100px 100px 100px;
+}
+.hr1 {
+  background-color: aqua;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hr2 {
+  background-color: aqua;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hr3{
+  background-color: aqua;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstName {
+  background-color: aqua;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number {
+  background-color: aqua;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pochta{
+  background-color: aqua;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.Phone {
+
+}
+.Name {
+
+}
+.email {
+
+}
