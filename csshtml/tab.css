@@ -1,0 +1,140 @@
+/*.tb{
+
+width: 100vw;
+gap: 0;
+display: grid;
+grid-template-columns: 33% 33% 33%;
+grid-template-rows: 100px 100px 100px 100px 100px;
+}
+.hr1 {
+  background-color: aqua;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hr2 {
+  background-color: aqua;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hr3{
+  background-color: aqua;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstName {
+  background-color: aqua;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number {
+  background-color: aqua;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pochta{
+  background-color: aqua;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.Phone {
+
+}
+.Name {
+
+}
+.email {
+
+}*/
+*{
+  box-sizing: border-box;
+}
+.d-table{
+  background-color: #f17979;
+  color: rgb(1, 1, 6);
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+.d-tr{
+  display: table-row;
+}
+.d-td{
+  display: table-cell;
+  text-align: center;
+  border: none;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}
+.d-td:not(.no-p){
+  padding: 4px;
+}
+button{
+  padding: 0.5rem 2rem;
+  background-color: rgb(100, 100, 155);
+
+}
+header{
+  background-color: rgb(79, 79, 79);
+}
+nav {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: rgb(95, 95, 95);
+}
+.menu {
+  display: flex;
+  gap: 2rem;
+}
+.menu li {
+
+  list-style: none;
+  border: 1px solid;
+  border-radius: 10px;
+
+  padding: 1rem 1rem;
+  }
+  .menu a {
+    font-weight:700;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+  }
+  .menu li:hover {
+    background-color: blue;
+  }
+  .inform {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    color: aliceblue;
+    font-size: 30px;
+  }
+  .inform a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .inform a:hover {
+    color: blue;
+  }
